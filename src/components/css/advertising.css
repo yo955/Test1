@@ -1,0 +1,48 @@
+.parent {
+    position: relative;
+}
+
+.hire-btn {
+    width: 262px;
+    height: 57px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(-120px, 10px);
+}
+
+.text {
+    width: 530px;
+    height: 110px;
+}
+
+@media (max-width:920px) {
+    .parent {
+        top: 50%;
+        left: 50%;
+        transform: translate(-120px, 10px);
+    }
+}
+
+@media (max-width:770px) {
+    .text {
+        width: 420px;
+    }
+
+    /* .parent {
+        width: 180px;
+    } */
+    .hire-btn {
+        width: 180px;
+        height: 57px;
+        left: 94px;
+    }
+}
+
+@media (max-width:610px) {
+    .text {
+        width: 200px;
+        height: 100%;
+    }
+
+}
