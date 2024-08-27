@@ -10,8 +10,9 @@ export default function Header(){
           <br></br> 
           built by great
           <span className="perpel-color"> teams </span> </h1>
-          <p>We help bulid and manage a team of world-class developers <br></br>
-            to bring your vision to life
+          <p>We help bulid and manage your site by a team of world-class developers <br></br>
+            to bring your vision to life.<br></br>
+            
           </p>
 
           <button>Let's got started</button>

@@ -17,3 +17,17 @@ section .developement {
     width: 90%;
 }
 
+/* style= {
+        {
+        width: "418px", height:"237px", display:"flex", alignItems:"center", margin:" 2px auto", padding:"10px"
+    }
+} */
+
+@media (max-width:570px) {
+    .container-developement {
+        position: relative;
+        left: 30px;
+    }
+
+
+}

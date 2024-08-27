@@ -41,8 +41,25 @@
 
 @media (max-width:610px) {
     .text {
-        width: 200px;
+        width: 100px;
         height: 100%;
+        font-size: 13px
     }
 
+}
+
+@media(max-width:510px) {
+    .text {
+        position: relative;
+        left: -35px;
+    }
+
+    .hire-btn {
+        left: 135px;
+    }
+
+    .parent img{
+        position: relative;
+        left: 37px;
+    }
 }

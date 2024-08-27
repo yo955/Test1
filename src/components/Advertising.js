@@ -11,7 +11,9 @@ const Advertising = () => {
         <div>
             <div className='parent'>
             <img src={SunRise} alt='' className='img'/>
-            <button className='hire-btn' style={{padding:"14px 25px",borderRadius:"5px", border:"1px solid #F16063",background:"#F16063",color:"white"}} >Hire Top Developers</button>
+            <button className='hire-btn' style={{padding:"14px 25px",borderRadius:"5px", border:"1px solid #F16063",background:"#F16063",color:"white",height:"85px"}} >Hire Top Developers
+            <h2 style={{color:"red"}}>Closed</h2>
+            </button>
             </div>
         </div>
     </div>

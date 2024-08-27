@@ -51,6 +51,8 @@ section .building {
         justify-content: space-around;
         margin: 60px 0;
         gap: 10px;
+        left: 40px;
+        position: relative;
     }
 
     .building-photo img {
@@ -90,5 +92,14 @@ section .building {
 
     .text-building {
         margin-left: 30px;
+        width: 90%;
+        place-items: center;
     }
+}
+
+@media(max-width:510px){
+.container-building{
+    position: relative;
+        left: -40px;
+}
 }

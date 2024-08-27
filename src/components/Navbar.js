@@ -45,7 +45,6 @@
 
 
 // ////////////////////////////////
-import React, { useState } from 'react';
 // import logoName from '../photos/logo-name.png';
 import logoIcon from '../photos/logo.png';
 import './css/navbar.css';
@@ -53,17 +52,18 @@ import { useTheme } from '@emotion/react';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import IconButton from '@mui/material/IconButton';
-import { FaBars } from 'react-icons/fa';
-import { useMediaQuery } from 'react-responsive';
+import {NavLink} from 'react-router-dom';
+// import { FaBars } from 'react-icons/fa';
+// import { useMediaQuery } from 'react-responsive';
 
 export default function Navbar({ setMymode }) {
   const theme = useTheme();
-  const [showMenu, setShowMenu] = useState(false);
-  const isMobile = useMediaQuery({ query: '(max-width: 685px)' });
+  // const [showMenu, setShowMenu] = useState(false);
+  // const isMobile = useMediaQuery({ query: '(max-width: 685px)' });
 
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
+  // const toggleMenu = () => {
+  //   setShowMenu(!showMenu);
+  // };
 
   return (
     <nav className="navbar">
@@ -71,7 +71,15 @@ export default function Navbar({ setMymode }) {
         {/* <img src={logoName} className="logo-name" alt="Logo Navbar" /> */}
         <img src={logoIcon} className="logo-icon" alt="Logo Name" />
       </div>
-      {isMobile ? (
+      <div className="nav-links mobile-menu">
+          <ul>
+            <NavLink to={"/about-us"}>About Us</NavLink>
+            <NavLink to={"/services"}>Services</NavLink>
+            <NavLink to={"/case-study"}>Case Studies</NavLink>
+            <NavLink to={"our-team"}>Blog</NavLink>
+          </ul>
+        </div>
+      {/* {isMobile ? (
         <div className="navbar-icon" onClick={toggleMenu}>
           <FaBars />
         </div>
@@ -98,7 +106,7 @@ export default function Navbar({ setMymode }) {
             <li>Hire</li>
           </ul>
         </div>
-      )}
+      )} */}
       <div className="contact-btn">
         <button>Contact US</button>
       </div>

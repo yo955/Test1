@@ -5,7 +5,7 @@ const CardDevelopement = ({title,para,img,background}) => {
     
   return (
     <div className='container-card'>
-        <div className='child' style={{width:"418px",height:"237px",display:"flex",alignItems:"center",margin:" 2px auto",padding:"10px"}}>
+        <div className='child' >
         <div style={{height:"100%",marginRight:"20px",position:"relative"}}>
         {/* Box */}
         <div className='box' style={background}>

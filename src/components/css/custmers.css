@@ -44,6 +44,20 @@ section .text-custmors p {
 
 }
 
+.team-customers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.team-customers .flex-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
 @media(max-width:810px) {
     .team-customers {
         display: grid;

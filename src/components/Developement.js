@@ -34,7 +34,7 @@ const developement = () => {
                     // gridTemplateColumns:"repeat(2,1fr)",
                         display: "grid",
     gridTemplateColumns: "repeat(auto-fill, minmax(400px, 1fr))",
-    gap: "13px",
+    gap: "13px",placeItems:"center",position:"relative",left:"-48px",
                     
                 }}>
 

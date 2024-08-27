@@ -20,7 +20,7 @@ export default function Leading(){
                                 add development capacity </span>
                                 to teach teams. Our value isn't limited to building teams but is equally distributed across the project lifecycle. We are a custom software development company that guarantees the successful delivery of your projects.
                         </p>
-                        <a href="#" > see more informations </a> <i class="fa-solid fa-arrow-right" ></i>
+                        <button href="#" > see more informations....<span style={{color:"#ccc",fontSize:"25px"}}>Soon</span> </button> <i class="fa-solid fa-arrow-right" ></i>
                     </div>
 
             
@@ -33,7 +33,7 @@ export default function Leading(){
                 </div>
             
         
-        <div className="end-leading">
+        {/* <div className="end-leading">
                 <hr/>
                 <br/>
                     <h2>
@@ -41,7 +41,7 @@ export default function Leading(){
                          We are Working With
                     </h2>
             
-         </div>
+         </div> */}
          {/* <div className="icons-pic">
             <img src={bar} alt="stair bar"/>
 

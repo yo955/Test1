@@ -1,24 +1,32 @@
 import './css/custmers.css';
-import member1 from '../photos/member1.png';
-import member2 from '../photos/member2.png';
-import member3 from '../photos/member3.png';
-import member4 from '../photos/member4.png';
-import member5 from '../photos/member5.png';
+import member1 from '../photos/angelo.jpg';
+import member2 from '../photos/jo.jpg';
+import member6 from '../photos/fatma.jpg';
+import member7 from '../photos/kat.jpg';
+import member8 from '../photos/male.jpeg';
+import member9 from '../photos/unknown.jpeg';
+import member10 from '../photos/ui ux.jpg';
+import member11 from '../photos/back.jpg';
+import member12 from '../photos/voice over.jpg';
 
 
 
 export default function Custmors(){
   const members = [
-    {id: 1, nameMember: "jhon helie" ,jopMember: "Web Design" , photoMember: member1 },
-    {id: 2, nameMember: "Barakat Anowar" ,jopMember: "Front-End" ,  photoMember: member2 },
-    {id: 3, nameMember: "lila Omar" ,jopMember: "Back-End" ,  photoMember: member3  },
-    {id: 4, nameMember: "jhon Dank" ,jopMember: "SoftWare Enginnering" , photoMember: member4},
-    {id: 5, nameMember: "lile Fourd" ,jopMember: "Web Design" ,  photoMember: member5},
+    {id: 1, nameMember: "Angluos Rezq" ,jopMember: "CEO,SoftWare Engineering" , photoMember: member1 },
+    {id: 2, nameMember: "Youssef Shaban" ,jopMember: "Front-End" ,  photoMember: member2 },
+    {id: 3, nameMember: "Abdulrahman" ,jopMember: "Back-End" ,  photoMember: member11  },
+    {id: 4, nameMember: "jhon Mohsen" ,jopMember: "UI/UX Designer" , photoMember: member10},
+    {id: 5, nameMember: "Fatma AWny" ,jopMember: "Flutter developer" ,  photoMember: member6},
+    {id: 6, nameMember: "Hadeer Dahy" ,jopMember: "Graphic Designer" ,  photoMember: member9},
+    {id: 7, nameMember: "Michael" ,jopMember: "social media design" ,  photoMember: member8},
+    {id: 8, nameMember: "Abdulrahman abo elhassan" ,jopMember: "Voice Over" ,  photoMember: member12},
+    {id: 9, nameMember: "katherine Adel" ,jopMember: "Data Analysis" ,  photoMember: member7},
   ];
   const myMember = members.map((member) => {
     return (
     <div key={member.id} className='flex-member'>
-       <img src = {member.photoMember} alt = "Team Member" style={{width:"160px"}}/>
+       <img src = {member.photoMember} alt = "Team Member" style={{width:"160px",borderRadius:"50%",height:"100px"}}/>
         <p> {member.nameMember}</p>
         {/* <p>stars</p> */}
          <p style={{color:'#bbb4b4'}}> {member.jopMember}</p>
@@ -35,13 +43,13 @@ export default function Custmors(){
             </div>
             <div className="text-custmors">
                 <p>
-                Without any doubt i recommend Alcaline Solutions as one of <br></br>
+Techno-Media team stands out for its assembly of elite developers and software engineers with high skills and diverse experiences. Each team member boasts an impressive resume reflecting their dedication and uniqueness in various technical domains. The developers possess extensive expertise in advanced software development and technology, contributing to enhancing the overall capabilities of the team.<br></br>
 
-                the best web design and digital marketing agencies. one of <br></br>
-
-                the est agencies I've came across to far. Wouldn't be <br></br>
-                
-                hesitated to itroduce their work to someone else.
+Additionally, Techno-Media relies on outstanding student trainees who compete to join the team and excel in their respective fields. This approach allows the team to benefit from fresh ideas and youthful energy, fostering innovation and creativity in daily work.
+<br></br>
+The spirit of collaboration among team members is a standout feature of Techno-Media, working as an integrated unit striving towards common goals with continuous cooperation. The team embraces a comprehensive approach to teamwork, where each member contributes their skills and experiences to support others and achieve innovative and effective results.
+<br></br>
+In this way, Techno-Media demonstrates its commitment to quality and innovation in software development, with a focus on building a work environment that stimulates creativity and continuous learning.
                 </p>
               
                 </div>
